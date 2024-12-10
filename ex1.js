@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")({sigint : true})
 
-var num1 = prompt('Enter a 1st Number : ')
-var num2 = prompt('Enter a 2nd Number : ')
+let num1 = prompt('Enter a 1st Number : ')
+let num2 = prompt('Enter a 2nd Number : ')
 
 
 

@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")({sigint : true})
 
-var age = parseInt(prompt("Quel est votre age ? "))
+let age = parseInt(prompt("Quel est votre age ? "))
 
 if ( isNaN(age) || age < 0){
     console.log(`Input non valide`)

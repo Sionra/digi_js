@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")({sigint : true})
 
-var phrase = prompt(`Entrée une phrase : `)
+let phrase = prompt(`Entrée une phrase : `)
 
 console.log(`Longeur de la phrase : ${phrase.length}`)
 console.log(phrase.toUpperCase())
