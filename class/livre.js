@@ -4,3 +4,5 @@ class Livre{
         this.auteur = auteur
     }
 }
+
+module.exports = Livre

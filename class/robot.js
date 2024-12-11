@@ -34,7 +34,7 @@ class Robot{
     }
 
     afficherPosition(){
-        console.log(`[${this.x}, ${this.y}]`)
+        console.log(`Position actuelle : [${this.x},${this.y}]`)
     }
 
     reinitialiserPosition(){
@@ -42,8 +42,8 @@ class Robot{
         this.y = 0
     }
 
-    historiqueNetteyage(){
-        for ( value in this.historiqueNetteyage){
+    historiqueNettoyage(){
+        for ( let value of this.positionNettoyees){
             console.log(value)
         }
     }
@@ -65,3 +65,5 @@ class Robot{
         }
     }
 }
+
+module.exports = Robot
