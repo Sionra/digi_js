@@ -19,7 +19,7 @@ do{
             found = true
         }
         console.log(found)
-} while (count < 5 && found === false)
+} while (count < 5 && !found)
 
     if (found){
         console.log(`☆*: .｡. o(≧▽≦)o .｡.:*☆ \nCongratulation you found it in ${count} hit`)
