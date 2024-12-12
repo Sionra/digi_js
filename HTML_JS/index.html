@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>I'm a text bou !!!!! 👻👻👻</p>
+    <button onclick="handleClick()">Catch the Ghost ! !</button>
+
+    <form onsubmit="formClick(event)">
+        <input type="text" name="usrText" placeholder="Text here...">
+        <input onclick="formClick()" type="submit" value="Ajouter">
+    </form>
+    <ul>
+    </ul>
+
+    <canvas id="myCanvas" width="600" height="300" style="outline: black 3px solid;"></canvas>
+    
+    <script>
+        const handleClick = () => {
+            const text = document.querySelector('p');
+            text.innerHTML = `Hey ! you catch me ! 🎉🎉🎉`;
+            text.style.color = 'white';
+            document.body.style.backgroundColor = 'black';
+        }
+        const formClick = (event) => {
+            event.preventDefault(); 
+            const myUl = document.querySelector('ul');
+            myUl.appendChild(document.createElement('li')).textContent = document.querySelector('input[name="usrText"]').value;
+        }
+
+        document.addEventListener('mousedown', (event) => {
+
+        });
+
+        document.addEventListener('mouseup', (event) => {
+
+});
+    </script>
+</body>
+</html>
