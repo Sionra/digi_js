@@ -1,5 +1,5 @@
-let mot1 = `Welcome to my Kingdom`
-let mot2 = `Two Milkmen Go Comedy`
+const mot1 = `Welcome to my Kingdom`
+const mot2 = `Two Milkmen Go Comedy`
 
 console.log(isAnagram(mot1, mot2))
 

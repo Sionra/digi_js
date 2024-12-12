@@ -1,6 +1,6 @@
 class Vehicule{
-    constructor(){
-
+    constructor(nom){
+        this.nom = nom
     }
 
     deplacer(){
@@ -8,3 +8,5 @@ class Vehicule{
     }
 
 }
+
+module.exports = Vehicule;
